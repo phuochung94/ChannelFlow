@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "ChannelFlow"
+  },
+  "extensionDescription": {
+    "message": "Phát liên tục trên YouTube và YouTube Music; chọn cùng kênh, hàng đợi hoặc cùng nghệ sĩ."
+  },
+  "heading": {
+    "message": "Phát theo cách của bạn."
+  },
+  "intro": {
+    "message": "Điều khiển riêng cho YouTube và YouTube Music."
+  },
+  "autoSwitch": {
+    "message": "Tự chuyển video"
+  },
+  "enableLabel": {
+    "message": "Bật tự chuyển video"
+  },
+  "connecting": {
+    "message": "Đang kết nối…"
+  },
+  "next": {
+    "message": "Chuyển ngay →"
+  },
+  "reset": {
+    "message": "Xóa lịch sử tab này"
+  },
+  "hint": {
+    "message": "Ưu tiên video đầu tiên chưa xem trong danh sách mới nhất tải được. Hãy bấm phát lần đầu; Chrome có thể chặn tự phát có âm thanh."
+  },
+  "ready": {
+    "message": "Sẵn sàng. Sẽ chuyển khi video kết thúc."
+  },
+  "fetchError": {
+    "message": "YouTube không trả dữ liệu. Hãy thử lại sau."
+  },
+  "parseError": {
+    "message": "Không đọc được dữ liệu YouTube. Hãy thử tải lại trang."
+  },
+  "channelError": {
+    "message": "Không xác định được kênh của video này."
+  },
+  "searching": {
+    "message": "Đang tìm video cùng kênh…"
+  },
+  "liveError": {
+    "message": "Bản này chỉ hỗ trợ video thường, chưa hỗ trợ livestream."
+  },
+  "tabError": {
+    "message": "Không đọc được tab Video của kênh. YouTube có thể đang yêu cầu đăng nhập hoặc đã đổi giao diện."
+  },
+  "listError": {
+    "message": "Không đọc được danh sách video của kênh. Hãy gửi dòng lỗi này và link video để kiểm tra."
+  },
+  "exhausted": {
+    "message": "Đã hết video chưa xem trong danh sách tải được. Có thể xóa lịch sử để xem lại."
+  },
+  "switching": {
+    "message": "Đang chuyển: $1"
+  },
+  "unplayable": {
+    "message": "Chưa tìm được video phát được trong cùng kênh."
+  },
+  "timeout": {
+    "message": "YouTube phản hồi quá lâu. Bấm Chuyển ngay để thử lại."
+  },
+  "enabledStatus": {
+    "message": "Đã bật. Sẽ chuyển khi video kết thúc."
+  },
+  "disabledStatus": {
+    "message": "Đã tắt tự chuyển."
+  },
+  "cleared": {
+    "message": "Đã xóa lịch sử của tab này."
+  },
+  "unsupported": {
+    "message": "Chỉ hỗ trợ trang xem video thường (/watch)."
+  },
+  "connectionError": {
+    "message": "Mở YouTube hoặc YouTube Music. Tải lại tab sau khi cài hoặc cập nhật ChannelFlow."
+  },
+  "unexpectedError": {
+    "message": "Đã xảy ra lỗi. Hãy tải lại YouTube và thử lại."
+  },
+  "preventAutoPause": {
+    "message": "Chặn tạm dừng do không tương tác"
+  },
+  "preventAutoPauseLabel": {
+    "message": "Tự xác nhận thông báo Tiếp tục xem"
+  },
+  "preventAutoPauseHint": {
+    "message": "Tự xác nhận thông báo Tiếp tục xem bằng tiếng Anh hoặc Việt. Bạn vẫn có thể bấm Pause."
+  },
+  "autoQuality": {
+    "message": "Chất lượng cao nhất · tối đa 4K"
+  },
+  "autoQualityLabel": {
+    "message": "Tự chọn độ phân giải cao nhất có sẵn tối đa 2160p"
+  },
+  "resetShort": {
+    "message": "Xóa lịch sử"
+  },
+  "musicHeading": {
+    "message": "Nghe nhạc liền mạch."
+  },
+  "musicIntro": {
+    "message": "Phát hàng đợi hoặc giữ cùng nghệ sĩ, cùng kênh."
+  },
+  "musicAuto": {
+    "message": "Phát nhạc liên tục"
+  },
+  "musicModeLabel": {
+    "message": "Phát tiếp"
+  },
+  "musicQueue": {
+    "message": "Hàng đợi / playlist"
+  },
+  "musicArtist": {
+    "message": "Cùng nghệ sĩ"
+  },
+  "musicChannel": {
+    "message": "Cùng kênh"
+  },
+  "musicHint": {
+    "message": "Tự lặp bài phù hợp đã tải. Mở Tiếp theo nếu chưa có hàng đợi."
+  },
+  "musicOpen": {
+    "message": "Mở một bài trên YouTube Music để bắt đầu."
+  },
+  "musicReady": {
+    "message": "Sẵn sàng. Phát tiếp theo chế độ bạn chọn."
+  },
+  "musicOff": {
+    "message": "Đã tắt chuyển nhạc của ChannelFlow. Cài đặt phát riêng của Music vẫn áp dụng."
+  },
+  "musicSearching": {
+    "message": "Đang tìm bài tiếp theo phù hợp…"
+  },
+  "musicUnavailable": {
+    "message": "Không điều khiển được Music. Hãy mở Tiếp theo và thử lại."
+  },
+  "musicArtistUnknown": {
+    "message": "Chưa xác định được nghệ sĩ. Mở Tiếp theo hoặc dùng chế độ hàng đợi."
+  },
+  "musicNoMatch": {
+    "message": "Không có bài phù hợp trong hàng đợi đã tải. Thêm bài hoặc đổi chế độ."
+  },
+  "preventMusicPauseLabel": {
+    "message": "Tự xác nhận thông báo tạm dừng trên YouTube Music"
+  }
+}

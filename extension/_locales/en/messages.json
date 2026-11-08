@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "ChannelFlow"
+  },
+  "extensionDescription": {
+    "message": "Continuous playback on YouTube and YouTube Music, with same-channel, queue and artist controls."
+  },
+  "heading": {
+    "message": "Playback, your way."
+  },
+  "intro": {
+    "message": "Separate controls for YouTube and YouTube Music."
+  },
+  "autoSwitch": {
+    "message": "Automatically switch videos"
+  },
+  "enableLabel": {
+    "message": "Enable automatic video switching"
+  },
+  "connecting": {
+    "message": "Connecting…"
+  },
+  "next": {
+    "message": "Next now →"
+  },
+  "reset": {
+    "message": "Clear this tab’s history"
+  },
+  "hint": {
+    "message": "Picks the first unvisited video from the latest loaded list. Press Play to start; Chrome may block autoplay with sound."
+  },
+  "ready": {
+    "message": "Ready. Will switch when the video ends."
+  },
+  "fetchError": {
+    "message": "YouTube did not return data. Please try again later."
+  },
+  "parseError": {
+    "message": "Could not read YouTube data. Please reload the page."
+  },
+  "channelError": {
+    "message": "Could not identify this video’s channel."
+  },
+  "searching": {
+    "message": "Finding another video from this channel…"
+  },
+  "liveError": {
+    "message": "Only standard videos are supported. Live streams are not supported yet."
+  },
+  "tabError": {
+    "message": "Could not read the channel’s Videos tab. YouTube may require sign-in or its layout may have changed."
+  },
+  "listError": {
+    "message": "Could not read the channel’s video list. Please share this error and the video URL for troubleshooting."
+  },
+  "exhausted": {
+    "message": "No unvisited videos remain in the loaded list. Clear history to watch them again."
+  },
+  "switching": {
+    "message": "Opening: $1"
+  },
+  "unplayable": {
+    "message": "Could not find a playable video from the same channel."
+  },
+  "timeout": {
+    "message": "YouTube took too long to respond. Click Next now to retry."
+  },
+  "enabledStatus": {
+    "message": "Enabled. Will switch when the video ends."
+  },
+  "disabledStatus": {
+    "message": "Automatic switching is off."
+  },
+  "cleared": {
+    "message": "History cleared for this tab."
+  },
+  "unsupported": {
+    "message": "Only standard video watch pages (/watch) are supported."
+  },
+  "connectionError": {
+    "message": "Open YouTube or YouTube Music. Reload the tab after installing or updating ChannelFlow."
+  },
+  "unexpectedError": {
+    "message": "An error occurred. Please reload YouTube and try again."
+  },
+  "preventAutoPause": {
+    "message": "Dismiss inactivity pauses"
+  },
+  "preventAutoPauseLabel": {
+    "message": "Automatically confirm Continue watching prompts"
+  },
+  "preventAutoPauseHint": {
+    "message": "Confirms the YouTube Continue watching prompt in English or Vietnamese. Manual pause still works."
+  },
+  "autoQuality": {
+    "message": "Highest quality · up to 4K"
+  },
+  "autoQualityLabel": {
+    "message": "Automatically select the highest available quality up to 2160p"
+  },
+  "resetShort": {
+    "message": "Clear history"
+  },
+  "musicHeading": {
+    "message": "Keep the music going."
+  },
+  "musicIntro": {
+    "message": "Play your queue, or stay with the same artist or channel."
+  },
+  "musicAuto": {
+    "message": "Continuous music playback"
+  },
+  "musicModeLabel": {
+    "message": "Play next"
+  },
+  "musicQueue": {
+    "message": "Queue / playlist"
+  },
+  "musicArtist": {
+    "message": "Same artist"
+  },
+  "musicChannel": {
+    "message": "Same channel"
+  },
+  "musicHint": {
+    "message": "Repeats matching loaded tracks. Open Up next if the queue is unavailable."
+  },
+  "musicOpen": {
+    "message": "Start a song on YouTube Music to begin."
+  },
+  "musicReady": {
+    "message": "Ready. Continues through your chosen music mode."
+  },
+  "musicOff": {
+    "message": "ChannelFlow music switching is off. Music’s own playback settings still apply."
+  },
+  "musicSearching": {
+    "message": "Finding the next matching track…"
+  },
+  "musicUnavailable": {
+    "message": "Could not control the Music player. Open Up next and try again."
+  },
+  "musicArtistUnknown": {
+    "message": "Artist identity is unavailable. Open Up next or use queue mode."
+  },
+  "musicNoMatch": {
+    "message": "No matching track in the loaded queue. Add tracks or choose another mode."
+  },
+  "preventMusicPauseLabel": {
+    "message": "Automatically confirm inactivity prompts on YouTube Music"
+  }
+}

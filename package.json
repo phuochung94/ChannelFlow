@@ -1,0 +1,13 @@
+{
+  "name": "channelflow",
+  "version": "1.3.2",
+  "private": true,
+  "description": "Continuous playback controls for YouTube and YouTube Music",
+  "scripts": {
+    "test": "node tests/test-extension.cjs && node tests/test-locales.cjs && node tests/test-keep-watching.cjs && node tests/test-quality.cjs && node tests/test-music-background.cjs",
+    "test:browser": "node tests/check-popup-responsive.cjs && node tests/test-music.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

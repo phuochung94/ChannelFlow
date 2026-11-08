@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>ChannelFlow</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <span class="eyebrow">CHANNELFLOW</span>
+  <h1 data-i18n="heading">Keep watching. Stay on channel.</h1>
+  <p data-i18n="intro">When a video ends, automatically open another video from the same channel.</p>
+  <section class="panel" aria-labelledby="youtubeTitle">
+    <h2 id="youtubeTitle">YouTube</h2>
+    <label class="switch"><span data-i18n="autoSwitch">Automatically switch videos</span><input id="enabled" type="checkbox" data-i18n-aria="enableLabel" aria-label="Enable automatic video switching"></label>
+    <label class="switch" id="qualityRow"><span data-i18n="autoQuality">Highest quality · up to 4K</span><input id="autoQuality" type="checkbox" data-i18n-aria="autoQualityLabel" aria-label="Automatically select the highest available quality up to 2160p"></label>
+    <label class="switch" data-i18n-title="preventAutoPauseHint"><span data-i18n="preventAutoPause">Dismiss inactivity pauses</span><input id="preventAutoPause" type="checkbox" data-i18n-aria="preventAutoPauseLabel" aria-label="Automatically confirm Continue watching prompts"></label>
+  </section>
+  <section class="panel" aria-labelledby="musicTitle">
+    <h2 id="musicTitle">YouTube Music</h2>
+    <label class="switch"><span data-i18n="musicAuto">Continuous music playback</span><input id="musicEnabled" type="checkbox" data-i18n-aria="musicAuto" aria-label="Enable continuous music playback"></label>
+    <label class="switch" id="musicModeRow"><span data-i18n="musicModeLabel">Play next</span><select id="musicMode" data-i18n-aria="musicModeLabel"><option value="queue" data-i18n="musicQueue">Queue / playlist</option><option value="artist" data-i18n="musicArtist">Same artist</option><option value="channel" data-i18n="musicChannel">Same channel</option></select></label>
+    <label class="switch" data-i18n-title="preventAutoPauseHint"><span data-i18n="preventAutoPause">Dismiss inactivity pauses</span><input id="preventMusicAutoPause" type="checkbox" data-i18n-aria="preventMusicPauseLabel" aria-label="Automatically confirm Music inactivity prompts"></label>
+    <small id="musicHintText" data-i18n="musicHint">Repeats matching loaded tracks. Open Up next if the queue is unavailable.</small>
+  </section>
+  <div id="status" role="status" data-i18n="connecting">Connecting…</div>
+  <div class="actions"><button id="next" disabled data-i18n="next">Next now →</button><button id="reset" class="secondary" disabled data-i18n="resetShort">Clear history</button></div>
+  <script src="popup-size.js"></script><script src="popup.js"></script>
+</body></html>
